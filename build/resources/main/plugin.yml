@@ -1,0 +1,11 @@
+name: Tytyber_race
+version: '1.5'
+main: org.tytyber.tytyber_race.Tytyber_race
+api-version: '1.21'
+authors: [ tytyber ]
+website: tytyber.ru
+commands:
+  race:
+    description: Основная команда для работы с расами.
+    usage: /race <subcommand> [args]
+    aliases: []
