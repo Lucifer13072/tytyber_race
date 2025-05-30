@@ -1,0 +1,26 @@
+name: Tytyber_race
+version: '1.6'
+main: org.tytyber.tytyber_race.Tytyber_race
+api-version: '1.21'
+authors: [ tytyber ]
+website: tytyber.ru
+commands:
+  race:
+    description: Выбор расы (игрок)
+    usage: /race [раса]
+  raceset:
+    description: Назначение расы (админ)
+    usage: /raceset [раса] [ник]
+    permission: race.admin
+  raceprefix:
+    description: Установка таб-префикса (админ)
+    usage: /raceprefix [префикс] [ник]
+    permission: race.admin
+  racereload:
+    description: Перезагрузка конфигов (админ)
+    usage: /racereload
+    permission: race.admin
+permissions:
+  race.admin:
+    description: Позволяет админ-команды расы
+    default: op

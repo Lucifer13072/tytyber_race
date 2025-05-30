@@ -1,0 +1,77 @@
+races:
+  elf:
+    evil: false
+    half_height: false
+    effects:
+      night_effects:
+        speed: 1
+        jump: 1
+        digging_speed: 0
+        swim_speed: 0
+        health: -5
+        regen: 0
+      day_effects:
+        sun: false
+        speed: 1
+        jump: 1
+        digging_speed: 0
+        swim_speed: 0
+        health: -5
+        regen: 0
+  orc:
+    evil: true
+    half_height: false
+    effects:
+      night_effects:
+        speed: 1
+        jump: 0
+        digging_speed: 1
+        swim_speed: 0
+        health: 4
+        regen: 1
+      day_effects:
+        sun: true
+        speed: -1
+        jump: -1
+        digging_speed: -1
+        swim_speed: -1
+        health: 4
+        regen: -1
+  dwarf:
+    evil: false
+    half_height: true
+    effects:
+      night_effects:
+        speed: -1
+        jump: -1
+        digging_speed: 2
+        swim_speed: -1
+        health: 2
+        regen: 0
+      day_effects:
+        sun: false
+        speed: -1
+        jump: -1
+        digging_speed: 2
+        swim_speed: 0
+        health: 2
+        regen: 0
+  human:
+    evil: false
+    half_height: false
+    effects:
+      night_effects:
+        speed: 0
+        jump: 0
+        digging_speed: 0
+        swim_speed: 0
+        health: 0
+        regen: 1
+      day_effects:
+        sun: false
+        speed: 0
+        jump: 0
+        digging_speed: 0
+        swim_speed: 0
+        health: 0
+        regen: 1
